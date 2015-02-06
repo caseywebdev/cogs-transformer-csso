@@ -10,8 +10,8 @@ var it = global.it;
 
 var FIXTURES = {
   'test/config.json': {
-    'test/input.txt': 'test/output.txt',
-    'test/error.txt': Error
+    'test/input.css': 'test/output.css',
+    'test/error.css': Error
   }
 };
 
