@@ -1,6 +1,6 @@
 {
   "name": "cogs-transformer-csso",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Casey Foster <c@sey.me>",
   "description": "A csso transformer for Cogs.",
   "license": "MIT",
