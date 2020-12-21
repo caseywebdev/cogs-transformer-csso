@@ -1,8 +1,6 @@
-var csso = require('csso');
+import csso from 'csso';
 
-module.exports = function (file, options, cb) {
-  var source = file.buffer.toString();
-  try { source = csso.minify(source) + '\n'; }
-  catch (er) { return cb(er); }
-  cb(null, {buffer: new Buffer(source)});
+export default ({ file, options }) => {
+  const { css } = csso.minify(file.buffer, { filename: file.path, ...options });
+  return { buffer: Buffer.from(`${css}\n`) };
 };

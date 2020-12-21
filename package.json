@@ -1,18 +1,19 @@
 {
   "name": "cogs-transformer-csso",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "author": "Casey Foster <c@sey.me>",
   "description": "A csso transformer for Cogs.",
   "license": "MIT",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/caseywebdev/cogs-transformer-csso"
   },
   "dependencies": {
-    "csso": "1.4.4"
+    "csso": "4"
   },
   "devDependencies": {
-    "cogs-test-helper": "1.x"
+    "cogs-test-helper": "4"
   },
   "scripts": {
     "test": "cogs-test-helper test/test.js"
